@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storytelling Competition 2024</title>
+    <style>
+        /* Reset Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #fff7e6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #ffcc00;
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+            border-radius: 0 0 50% 50%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 4rem;
+            color: #ff5722;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        header p {
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #ffffff;
+            padding: 80px 20px;
+            text-align: center;
+            border-radius: 30px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero h2 {
+            font-size: 3.5rem;
+            color: #ff5722;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+            color: #555;
+            font-weight: 400;
+        }
+
+        .btn {
+            padding: 18px 45px;
+            background-color: #ff5722;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #e64a19;
+        }
+
+        /* Contest Details Section */
+        .contest-details {
+            padding: 60px 20px;
+            text-align: center;
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fffbf0;
+            border-radius: 10px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .contest-details h3 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #ff5722;
+        }
+
+        .contest-details p {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .contest-details a {
+            color: #ff5722;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        .contest-details a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: #ffcc00;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact h3 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+        }
+
+        .contact .phone-number {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: #ff5722;
+            color: white;
+            font-size: 1.3rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact .phone-number:hover {
+            background-color: #e64a19;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Fun Bubbles Animation */
+        .bubble {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: rgba(255, 87, 34, 0.5);
+            animation: bubble-animation 8s infinite;
+        }
+
+        @keyframes bubble-animation {
+            0% {
+                transform: translateY(0) scale(1);
+            }
+            50% {
+                transform: translateY(-100px) scale(1.2);
+            }
+            100% {
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        /* Responsive Layout */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.8rem;
+            }
+
+            .hero h2 {
+                font-size: 2.5rem;
+            }
+
+            .contest-details h3 {
+                font-size: 2.2rem;
+            }
+
+            .contest-details p {
+                font-size: 1.1rem;
+            }
+
+            .contact h3 {
+                font-size: 2.5rem;
+            }
+
+            .contact .phone-number {
+                padding: 12px 35px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Storytelling Competition 2024</h1>
+    <p>Let Your Creativity Shine!</p>
+</header>
+
+<!-- Hero Section -->
+<div class="hero">
+    <h2>Calling All Young Storytellers!</h2>
+    <p>Get ready to tell your exciting, magical, or adventurous stories!</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSccQICTStTxT6DgQRcWVZ7gfFzc5bMyPxheCyaGJCDMHulang/viewform?usp=sf_link" class="btn" target="_blank">Register Now</a>
+</div>
+
+<!-- Fun Animated Bubble Effect -->
+<div class="bubble" style="top: 20px; left: 50px;"></div>
+<div class="bubble" style="top: 100px; left: 350px;"></div>
+<div class="bubble" style="top: 200px; left: 600px;"></div>
+
+<!-- Contest Details Section -->
+<div class="contest-details">
+    <h3>Competition Details</h3>
+    <p>This is your chance to tell an amazing story. You could win amazing prizes! Join us for this fun-filled event.</p>
+    <p><strong>Date:</strong> 8 December 2024</p>
+    <p><strong>Location:</strong> Cambridge English For Life, Betaria Seremban (near Centrepoint)</p>
+    <p><strong>Registration Deadline:</strong> 3 December 2024</p>
+    <p>Don't miss out! Register today and be part of this exciting competition. <a href="https://docs.google.com/forms/d/e/1FAIpQLSccQICTStTxT6DgQRcWVZ7gfFzc5bMyPxheCyaGJCDMHulang/viewform?usp=sf_link" target="_blank">Click here to register</a></p>
+</div>
+
+<!-- Contact Section -->
+<div class="contact">
+    <h3>Have Questions?</h3>
+    <p>We're here to help! Reach out to us for more information.</p>
+    <a href="tel:+60162792175" class="phone-number">Call Us: 016-279 2175</a>
+</div>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 Storytelling Competition | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
